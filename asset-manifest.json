@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mathstutorial/static/css/main.373fbb36.chunk.css",
+    "main.js": "/mathstutorial/static/js/main.de3cd68f.chunk.js",
+    "main.js.map": "/mathstutorial/static/js/main.de3cd68f.chunk.js.map",
+    "runtime-main.js": "/mathstutorial/static/js/runtime-main.3251b37b.js",
+    "runtime-main.js.map": "/mathstutorial/static/js/runtime-main.3251b37b.js.map",
+    "static/css/2.a44c59e0.chunk.css": "/mathstutorial/static/css/2.a44c59e0.chunk.css",
+    "static/js/2.46255e09.chunk.js": "/mathstutorial/static/js/2.46255e09.chunk.js",
+    "static/js/2.46255e09.chunk.js.map": "/mathstutorial/static/js/2.46255e09.chunk.js.map",
+    "static/js/3.acc3fb5c.chunk.js": "/mathstutorial/static/js/3.acc3fb5c.chunk.js",
+    "static/js/3.acc3fb5c.chunk.js.map": "/mathstutorial/static/js/3.acc3fb5c.chunk.js.map",
+    "index.html": "/mathstutorial/index.html",
+    "static/css/2.a44c59e0.chunk.css.map": "/mathstutorial/static/css/2.a44c59e0.chunk.css.map",
+    "static/css/main.373fbb36.chunk.css.map": "/mathstutorial/static/css/main.373fbb36.chunk.css.map",
+    "static/js/2.46255e09.chunk.js.LICENSE.txt": "/mathstutorial/static/js/2.46255e09.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3251b37b.js",
+    "static/css/2.a44c59e0.chunk.css",
+    "static/js/2.46255e09.chunk.js",
+    "static/css/main.373fbb36.chunk.css",
+    "static/js/main.de3cd68f.chunk.js"
+  ]
+}
