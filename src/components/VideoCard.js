@@ -6,7 +6,7 @@ const VideoCard = ({ embedId, title, description, id }) => {
   return (
     <div class="video-card">
       <div className="video-description">
-        <YoutubeEmbed embedId={embedId} loading="lazy" />
+        <YoutubeEmbed embedId={embedId} />
         <div>
           <h3>{title}</h3>
           <p>{description}</p>

@@ -11,34 +11,37 @@ function Footer() {
             <h1>Maths with Mr SA</h1>
           </div>
           <div class="social text-gray">
-            <Link to="/">
+            <a href="http://m.facebook.com/TeacherSatya" target="blank">
               <i class="fab fa-facebook-f"></i>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="https://www.instagram.com/teachersatya/" target="blank">
               <i class="fab fa-instagram"></i>
-            </Link>
-            <Link to="/">
-              <i class="fab fa-twitter"></i>
-            </Link>
-            <Link to="/">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/satyaprakash-gopinath-8229ba165"
+              target="blank"
+            >
+              <i class="fab fa-linked-in"></i>
+            </a>
+            <a href="https://youtube.com" target="blank">
               <i class="fab fa-youtube"></i>
-            </Link>
+            </a>
           </div>
         </div>
         <div class="quick-links">
           <ul class="nav-items">
             <li class="nav-link">Quick Links</li>
             <li class="nav-link">
-              <Link href="/">Topics & Worksheets</Link>
+              <Link to="/mathstutorial/topics">Topics & Worksheets</Link>
             </li>
             <li class="nav-link">
-              <Link href="#">Videos</Link>
+              <Link to="/mathstutorial/videos">Videos</Link>
             </li>
             <li class="nav-link">
-              <Link href="#">About Me</Link>
+              <Link to="/mathstutorial/about">About Me</Link>
             </li>
             <li class="nav-link">
-              <Link href="#">Blog</Link>
+              <Link to="/mathstutorial/blog">Blog</Link>
             </li>
           </ul>
         </div>

@@ -501,6 +501,10 @@ section.video {
 }
 
 @media (max-width: 667px) {
+  .nav .toggle-collapse {
+    display: block;
+  }
+
   .nav .nav-menu,
   .nav .nav-items {
     flex-direction: column;
@@ -509,10 +513,6 @@ section.video {
   ul.nav-items,
   .nav .nav-items .nav-link {
     padding-left: 0;
-  }
-
-  .nav .toggle-collapse {
-    display: initial;
   }
 
   .showcase {
@@ -568,5 +568,9 @@ section.video {
 
   .blog-card .blog-description > div {
     height: 120px;
+  }
+
+  .showcase {
+    height: 90vh;
   }
 }

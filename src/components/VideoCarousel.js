@@ -13,7 +13,7 @@ import {
   VideoLists,
 } from "./VideoList";
 
-const VideoCarousel = ({ SurfaceAreaVideos }) => {
+const VideoCarousel = () => {
   return (
     <div>
       <OwlCarousel

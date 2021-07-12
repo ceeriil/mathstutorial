@@ -17,11 +17,11 @@ function App() {
       <div className="App">
         <Navigation />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/topics" exact component={Topics} />
-          <Route path="/videos" exact component={Video} />
-          <Route path="/about" component={About} />
-          <Route path="/blog" component={Blog} />
+          <Route path="/mathstutorial" exact component={Home} />
+          <Route path="/mathstutorial/topics" exact component={Topics} />
+          <Route path="/mathstutorial/videos" exact component={Video} />
+          <Route path="/mathstutorial/about" component={About} />
+          <Route path="/mathstutorial/blog" component={Blog} />
         </Switch>
         <Recent />
         <Footer />

@@ -41,17 +41,16 @@ const Recent = () => {
           </p>
         </div>
       </div>
-      <div className='container'>
-      <div className="button-container ">
-        <button className="btn-primary">
-          <Link to="#">Load More</Link>
-        </button>
-        <button className="btn-secondary">
-          <Link to="#">Subscribe</Link>
-        </button>
+      <div className="container">
+        <div className="button-container ">
+          <button className="btn-primary">
+            <Link to="#">Load More</Link>
+          </button>
+          <button className="btn-secondary">
+            <a href="https://youtube.com">Subscribe</a>
+          </button>
+        </div>
       </div>
-      </div>
-      
     </section>
   );
 };

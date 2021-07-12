@@ -6,7 +6,7 @@ import VideoCarousel from "./components/VideoCarousel";
 import { SurfaceAreaVideos } from "./components/VideoList";
 
 class Video extends Component {
-  constructor() {
+  /* constructor() {
     super();
     this.state = {
       SurfaceAreaVideos: SurfaceAreaVideos,
@@ -17,15 +17,15 @@ class Video extends Component {
   onSearchChange = (event) => {
     this.setState({ searchField: event.target.value });
   };
-
+ */
   render() {
-    const filteredRobots = this.state.SurfaceAreaVideos.filter(
+    /* const filteredRobots = this.state.SurfaceAreaVideos.filter(
       (surfaceAreaVideos) => {
         return surfaceAreaVideos.snippet.title
           .toLowerCase()
           .includes(this.state.searchField.toLowerCase());
       }
-    );
+    ); */
     return (
       <main>
         <section className="videos showcase">
@@ -35,12 +35,12 @@ class Video extends Component {
               A collection of free online tutorial videos that will cover key
               areas of mathematics
             </h2>
-            <SearchBox searchChange={this.onSearchChange} />
+            <SearchBox />
           </div>
         </section>
         <section className="video">
           <div className="container">
-            <VideoCarousel SurfaceAreaVideos={filteredRobots} />
+            <VideoCarousel />
           </div>
         </section>
       </main>
